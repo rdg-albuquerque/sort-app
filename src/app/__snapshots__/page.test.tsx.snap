@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Homepage renders homepage correctly 1`] = `
+<div>
+  <div
+    class="flex min-h-screen flex-col items-center gap-24 p-24"
+  >
+    <form
+      class="flex flex-col gap-2"
+    >
+      <input
+        name="participant"
+        placeholder="Insert the participants names"
+        type="text"
+        value=""
+      />
+      <button
+        class="bg-gray-500 text-white px-[40px] py-[18px] rounded-[38px]"
+        disabled=""
+        type="submit"
+      >
+        Submit
+      </button>
+    </form>
+    <ul>
+      <li
+        class="text-white"
+      >
+        Rodrigo
+      </li>
+      <li
+        class="text-white"
+      >
+        João
+      </li>
+      <li
+        class="text-white"
+      >
+        Maria
+      </li>
+      <li
+        class="text-white"
+      >
+        Ana
+      </li>
+    </ul>
+    <div>
+      <button
+        class="bg-[#4646bb] text-white px-[40px] py-[18px] rounded-[38px]"
+      >
+        Iniciar brincadeira
+      </button>
+    </div>
+  </div>
+</div>
+`;

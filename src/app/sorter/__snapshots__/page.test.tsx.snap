@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sorter page Renders sorter page correctly 1`] = `
+<div>
+  <div
+    class="flex min-h-screen flex-col items-center gap-24 p-24"
+  >
+    <h1>
+      Quem vai tirar o papelzinho?
+    </h1>
+    <form>
+      <select
+        class="text-black"
+        data-testid="select"
+        id="participants-select"
+        name="participants-select"
+      >
+        <option
+          class="text-black"
+          disabled=""
+          hidden=""
+          selected=""
+          value="default"
+        >
+          Selecione seu nome
+        </option>
+        <option
+          class="text-black"
+          value="Rodrigo"
+        >
+          Rodrigo
+        </option>
+        <option
+          class="text-black"
+          value="João"
+        >
+          João
+        </option>
+        <option
+          class="text-black"
+          value="Maria"
+        >
+          Maria
+        </option>
+        <option
+          class="text-black"
+          value="Ana"
+        >
+          Ana
+        </option>
+      </select>
+    </form>
+    <p>
+      Clique em sortear para ver quem é seu amigo secreto
+    </p>
+    <a
+      href="/"
+    >
+      Home
+    </a>
+  </div>
+</div>
+`;

@@ -26,6 +26,12 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+input {
+  color: black;
+  padding: 5px;
+  padding-left: 10px;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
