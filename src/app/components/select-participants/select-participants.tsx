@@ -5,14 +5,11 @@ import { useParticipants, useSelectedParticipant } from "@/states/participants"
 
 export default function SelectParticipants() {
   const [participants] = useParticipants()
-  const { selectedParticipant, setSelectedParticipant } =
-    useSelectedParticipant()
+  const { setSelectedParticipant } = useSelectedParticipant()
 
   const handleChange = (e: ChangeEvent<HTMLSelectElement>) => {
     setSelectedParticipant(e.target.value)
   }
-
-  console.log("component", selectedParticipant)
 
   return (
     <form>

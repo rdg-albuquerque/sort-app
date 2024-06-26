@@ -63,7 +63,7 @@ describe("Select participants", () => {
     return <div data-testid="test-component">{selectedParticipant}</div>
   }
 
-  test("The selectedParticipant is set when the value the select element changes", async () => {
+  test("The selectedParticipant is set when the value of the select element changes", async () => {
     render(
       <RecoilRoot>
         <Sorter />
@@ -76,7 +76,6 @@ describe("Select participants", () => {
 
     const selectedParticipantElement = screen.getByTestId("test-component")
     await waitFor(() => {
-      // Precisa do act?
       expect(select).toHaveValue(selectedParticipantElement.textContent)
     })
   })
