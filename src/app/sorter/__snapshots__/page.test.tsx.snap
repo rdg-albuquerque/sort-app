@@ -53,6 +53,11 @@ exports[`Sorter page Renders sorter page correctly 1`] = `
     <p>
       Clique em sortear para ver quem é seu amigo secreto
     </p>
+    <button
+      class="bg-[#4646bb] text-white px-[40px] py-[18px] rounded-[38px]"
+    >
+      Sortear!
+    </button>
     <a
       href="/"
     >
